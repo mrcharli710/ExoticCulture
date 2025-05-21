@@ -1,0 +1,71 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #fff;
+  font-family: sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.age-gate {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.age-box {
+  text-align: center;
+  background: #222;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.age-box button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 5;
+}
+
+.logo {
+  transition: all 0.5s ease;
+}
+
+.logo.small {
+  height: 40px;
+}
+
+.logo.big {
+  height: 150px;
+}
+
+.logo-center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
