@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Club Cannabis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Age Verification Overlay -->
+  <div id="age-gate" class="age-gate">
+    <div class="age-box">
+      <h2>Are you 18 or older?</h2>
+      <button onclick="enterSite()">Yes</button>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <img src="logo.png" alt="Logo" class="logo small hidden" id="navLogo" />
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main-content" class="hidden">
+    <div class="logo-center" id="centerLogoContainer">
+      <img src="logo.png" alt="Logo" class="logo big" id="centerLogo" />
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
